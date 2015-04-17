@@ -9,6 +9,6 @@ printf("Enter your name: ");
 fgets(name, 255, stdin);
 name[strlen(name)-1] = '\0';		/* remove the new line at the end */
 
-printf("Hello world!\n");
+printf("Hello, %s!\n", name);
 return 0;
 }
